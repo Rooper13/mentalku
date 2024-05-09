@@ -1,0 +1,121 @@
+.container{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: #EEF7FF
+}
+
+.rectangle5{
+    width: 1369px; 
+    height: 640px; 
+    left: 0px; top: 93px; 
+    position: absolute; 
+    background: #E2BFB3
+}
+
+.rectangle1{
+    width: 1369px; 
+    height: 93px; 
+    left: 0px; top: 0px; 
+    position: absolute; 
+    background: white
+}
+.rectangle2{
+    width: 13px; height: 7px; 
+    left: 620px; 
+    top: 44px; 
+    position: absolute
+}
+.rectangle3{
+    width: 6.50px; height: 3.43px; left: 3px; 
+    top: 2px; position: absolute; 
+    background: rgba(0, 0, 0, 0.80)
+}
+.menu{
+    width: 908px; 
+    height: 80px; 
+    left: 21px; 
+    top: 7px; 
+    position: absolute
+}
+.beranda1{
+    left: 400px; top: 26px; 
+    position: absolute; color: black; 
+    font-size: 20px; 
+    font-family: Manrope; 
+    font-weight: 400; word-wrap: break-word
+}
+.direct {
+    left: 515px; top: 26px; 
+    position: absolute; 
+    color: black; font-size: 20px; 
+    font-family: 
+    Manrope; font-weight: 400; 
+    word-wrap: break-word
+}
+.konsultasi{
+    left: 637px; top: 26px; 
+    position: absolute; color: black; 
+    font-size: 20px; font-family: 
+    Manrope; font-weight: 400; 
+    word-wrap: break-word
+}
+.informasi{
+    left: 822px; top: 26px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; font-family: 
+    Manrope; font-weight: 400; 
+    word-wrap: break-word
+}
+.tidur{
+    left: 133px; top: 2167px; 
+    position: absolute; color: black; 
+    font-size: 32px; 
+    font-family: Inria Serif; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+.bipolar{
+    left: 630px; top: 2167px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; font-family: Inria Serif; 
+    font-weight: 700; word-wrap: break-word
+}
+.umum{
+    left: 978px; top: 2167px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; font-family: Inria Serif; 
+    font-weight: 700; word-wrap: break-word
+}
+.blue{
+    width: 100px; 
+    height: 40px; 
+    left: 1250px; top: 26px; 
+    position: absolute; 
+    background: #6EC1E4; border-radius: 10px
+}
+.keluar{
+    left: 1268px; 
+    top: 33px; position: absolute; 
+    color: white; 
+    font-size: 20px; font-family: Inter; 
+    font-weight: 700; word-wrap: break-word
+}
+.arrow{
+    width: 6.50px; 
+    height: 3.43px; 
+    left: 6px; top: 9px; 
+    position: absolute; 
+    background: rgba(0, 0, 0, 0.80)
+}
+.arrow2{
+    width: 392px; height: 381px; 
+    left: 920px; top: 1112px; 
+    position: absolute; 
+    border-top-left-radius: 30px; 
+    border-top-right-radius: 30px; 
+    border: 1px black solid
+}
