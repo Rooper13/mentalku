@@ -1,0 +1,1369 @@
+.hero-child {
+    width: 1369px;
+    height: 611px;
+    position: relative;
+    background: linear-gradient(270deg, #6ec1e4);
+    display: none;
+    max-width: 100%;
+    z-index: 0;
+  }
+  .hero-image-icon {
+    width: 1298px;
+    height: 467px;
+    position: absolute;
+    margin: 0 !important;
+    right: -540px;
+    bottom: 0;
+    object-fit: contain;
+    z-index: 2;
+  }
+  .g8-icon {
+    height: 50px;
+    width: 50px;
+    position: relative;
+  }
+  .mindfulcare {
+    height: 38px;
+    position: relative;
+    display: inline-block;
+  }
+  .g8-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 14px;
+  }
+  .home {
+    font-weight: 600;
+  }
+  .about,
+  .home,
+  .page,
+  .services {
+    height: 27px;
+    position: relative;
+    display: inline-block;
+  }
+  .home-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 49.7px;
+    max-width: 100%;
+    font-size: var(--body1-light-size);
+    font-family: var(--body1-light);
+  }
+  .see-detail {
+    height: 30px;
+    position: relative;
+    display: inline-block;
+  }
+  .button {
+    border-radius: var(--br-11xl);
+    background-color: var(--color);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-mini) var(--padding-30xl);
+    white-space: nowrap;
+    font-size: var(--h6-size);
+  }
+  .frame-parent {
+    width: 1596px;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+    z-index: 2;
+    font-size: var(--h5-size);
+  }
+  .about-us,
+  .lorem-ipsum-dolor {
+    position: relative;
+    display: inline-block;
+  }
+  .about-us {
+    height: 93px;
+    font-weight: 800;
+  }
+  .lorem-ipsum-dolor {
+    align-self: stretch;
+    height: 54px;
+    font-size: var(--body1-light-size);
+    font-family: var(--body1-light);
+  }
+  .about-us-parent {
+    width: 1173px;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-31xl);
+    max-width: 100%;
+    z-index: 3;
+  }
+  .hero-item {
+    width: 5px;
+    height: 328px;
+    position: relative;
+    background-color: var(--txt);
+    display: none;
+    z-index: 4;
+  }
+  .img-20240506-233046-2-icon {
+    height: 94px;
+    width: 202px;
+    position: relative;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .beranda {
+    display: inline-block;
+    min-width: 82px;
+  }
+  .beranda,
+  .direktori,
+  .icons {
+    position: relative;
+    z-index: 3;
+  }
+  .direktori {
+    display: inline-block;
+    min-width: 85px;
+  }
+  .icons {
+    width: 6.5px;
+    height: 3.3px;
+  }
+  .direktori-parent,
+  .option-pair {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .option-pair {
+    flex-direction: column;
+    padding: var(--padding-smi) 0 0;
+  }
+  .direktori-parent {
+    flex-direction: row;
+    gap: var(--gap-9xs);
+  }
+  .konsultasi-online1 {
+    position: relative;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .konsultasi-online-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 6.5px 0 0;
+  }
+  .informasi,
+  .vector-icon {
+    position: relative;
+    z-index: 3;
+  }
+  .informasi {
+    display: inline-block;
+    min-width: 94px;
+  }
+  .vector-icon {
+    width: 6.5px;
+    height: 3.3px;
+  }
+  .vector-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-smi) 0 0;
+  }
+  .informasi-parent,
+  .navigation-options {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .informasi-parent {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+  }
+  .navigation-options {
+    gap: 15.5px;
+  }
+  .navigation-menu,
+  .navigation-menu-wrapper,
+  .navigation-options {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .navigation-menu {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 33px;
+  }
+  .navigation-menu-wrapper {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 23.5px var(--padding-14xl) 0;
+    box-sizing: border-box;
+  }
+  .see-detail1 {
+    position: relative;
+    font-size: var(--h6-size);
+    font-family: var(--h5);
+    color: var(--color-black);
+    text-align: left;
+    white-space: nowrap;
+  }
+  .button-wrapper,
+  .button1 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .button1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-mini) var(--padding-31xl);
+    background-color: var(--txt);
+    border-radius: var(--br-11xl);
+    flex-direction: row;
+    justify-content: flex-start;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .button1:hover {
+    background-color: #e6e6e6;
+  }
+  .button-wrapper {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 14px;
+  }
+  .img-20240506-233046-2-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    max-width: 100%;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--txt);
+    font-family: var(--h5);
+  }
+  .box-background {
+    height: 328px;
+    width: 5px;
+    position: relative;
+    background-color: var(--txt);
+    z-index: 3;
+  }
+  .konsultasi-online2 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 800;
+    font-family: inherit;
+    z-index: 3;
+  }
+  .konsultasi-online-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-19xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .saya-mengundangmu-untuk {
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+    z-index: 1;
+  }
+  .healthiconsv {
+    width: 20px;
+    height: 11px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: 23px;
+    left: 450px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 3;
+  }
+  .tanyakan-dibawah-ini {
+    position: absolute;
+    margin: 0 !important;
+    right: 421px;
+    bottom: 22px;
+    font-size: var(--font-size-smi);
+    display: inline-block;
+    font-family: var(--font-inter);
+    color: var(--color-skyblue);
+    z-index: 4;
+  }
+  .consultation-box-inner,
+  .frame-group,
+  .saya-mengundangmu-untuk-mengam-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .saya-mengundangmu-untuk-mengam-parent {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-6xl);
+    font-family: var(--body1-light);
+  }
+  .consultation-box-inner,
+  .frame-group {
+    max-width: 100%;
+  }
+  .frame-group {
+    align-self: stretch;
+    gap: var(--gap-4xs);
+  }
+  .consultation-box-inner {
+    flex: 1;
+    padding: var(--padding-18xl) 0 0;
+    box-sizing: border-box;
+    min-width: 684px;
+  }
+  .consultation-box,
+  .consultation-box-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .consultation-box {
+    width: 1093px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: var(--gap-16xl);
+  }
+  .consultation-box-wrapper {
+    width: 1265px;
+    justify-content: center;
+  }
+  .frame-child,
+  .hero {
+    position: relative;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .hero {
+    align-self: stretch;
+    background: linear-gradient(270deg, #6ec1e4);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-lgi) 36px 88px var(--padding-11xl);
+    gap: 82px;
+    text-align: left;
+    font-size: var(--h1-size);
+    color: var(--txt);
+    font-family: var(--h5);
+  }
+  .frame-child {
+    width: 1182px;
+    height: 399px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+    background-color: var(--txt);
+    border-top: 5px solid var(--color-skyblue);
+    display: none;
+  }
+  .konsultasi-online3 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .short-divider-icon {
+    height: 0.2px;
+    width: 20px;
+    position: relative;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .short-divider-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  }
+  .long-divider-child {
+    height: 0.4px;
+    width: 50px;
+    position: relative;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .long-divider {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  }
+  .konsultasi-online-parent {
+    width: 279px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8.9px;
+  }
+  .frame-wrapper {
+    width: 893px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .field-icon-pair-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-skyblue);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .icon-park-outlinepeople {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    z-index: 2;
+  }
+  .field-icon-pair {
+    height: 35px;
+    width: 37px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-skyblue);
+    z-index: 1;
+  }
+  .field-label-pair-child {
+    height: 39px;
+    width: 397px;
+    position: relative;
+    background-color: var(--txt);
+    border-bottom: 1px solid var(--color-gainsboro-100);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .nama {
+    position: relative;
+    font-size: var(--font-size-smi);
+    font-weight: 200;
+    font-family: var(--font-inter);
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+    min-width: 36px;
+    z-index: 2;
+  }
+  .field-label-pair,
+  .icon-pair {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .field-label-pair {
+    background-color: var(--txt);
+    border-bottom: 1px solid var(--color-gainsboro-100);
+    box-sizing: border-box;
+    align-items: flex-start;
+    padding: var(--padding-lgi) var(--padding-12xs) var(--padding-11xs);
+    min-width: 36px;
+    z-index: 1;
+  }
+  .icon-pair {
+    align-items: flex-end;
+    gap: var(--gap-10xs);
+    min-width: 285px;
+  }
+  .frame-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-skyblue);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .icoutline-email-icon {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    z-index: 2;
+  }
+  .rectangle-group {
+    height: 35px;
+    width: 37px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-skyblue);
+    z-index: 1;
+  }
+  .frame-inner {
+    height: 39px;
+    width: 397px;
+    position: relative;
+    background-color: var(--txt);
+    border-bottom: 1px solid var(--color-gainsboro-100);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .email {
+    position: relative;
+    font-size: var(--font-size-smi);
+    font-weight: 200;
+    font-family: var(--font-inter);
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+    min-width: 32px;
+    z-index: 2;
+  }
+  .rectangle-container {
+    flex: 1;
+    background-color: var(--txt);
+    border-bottom: 1px solid var(--color-gainsboro-100);
+    box-sizing: border-box;
+    align-items: flex-start;
+    padding: 17px 0 4px;
+    min-width: 32px;
+    z-index: 1;
+  }
+  .icon-pair-parent,
+  .icon-pair1,
+  .rectangle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .icon-pair1 {
+    flex: 1;
+    align-items: flex-end;
+    gap: var(--gap-8xs);
+    min-width: 285px;
+  }
+  .icon-pair-parent {
+    align-self: stretch;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: var(--gap-55xl);
+  }
+  .work-icon-pair-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-skyblue);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .pajamaswork-icon {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    z-index: 2;
+  }
+  .work-icon-pair {
+    height: 35px;
+    width: 37px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-skyblue);
+    z-index: 1;
+  }
+  .job-label-pair-child {
+    height: 39px;
+    width: 397px;
+    position: relative;
+    background-color: var(--txt);
+    border-bottom: 1px solid var(--color-gainsboro-100);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .pekerjaan {
+    position: relative;
+    font-size: var(--font-size-smi);
+    font-weight: 200;
+    font-family: var(--font-inter);
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+    min-width: 59px;
+    z-index: 2;
+  }
+  .job-icon-pair,
+  .job-label-pair {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .job-label-pair {
+    background-color: var(--txt);
+    border-bottom: 1px solid var(--color-gainsboro-100);
+    box-sizing: border-box;
+    align-items: flex-start;
+    padding: var(--padding-xl) 0 var(--padding-12xs);
+    min-width: 59px;
+    z-index: 1;
+  }
+  .job-icon-pair {
+    align-items: flex-end;
+    gap: var(--gap-10xs);
+    min-width: 285px;
+  }
+  .rectangle-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-skyblue);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .ictwotone-question-mark-icon {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    z-index: 2;
+  }
+  .frame-div {
+    height: 35px;
+    width: 37px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-skyblue);
+    z-index: 1;
+  }
+  .frame-child1 {
+    height: 39px;
+    width: 397px;
+    position: relative;
+    background-color: var(--txt);
+    border-bottom: 1px solid var(--color-gainsboro-100);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .keluhan {
+    width: 48px;
+    border: 0;
+    outline: 0;
+    font-weight: 200;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-smi);
+    background-color: transparent;
+    height: 16px;
+    position: relative;
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+    z-index: 2;
+  }
+  .job-icon-pair1,
+  .rectangle-parent1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .rectangle-parent1 {
+    background-color: var(--txt);
+    border-bottom: 1px solid var(--color-gainsboro-100);
+    box-sizing: border-box;
+    align-items: flex-start;
+    padding: var(--padding-xl) 0 var(--padding-12xs);
+    min-width: 48px;
+    z-index: 1;
+  }
+  .job-icon-pair1 {
+    align-items: flex-end;
+    gap: var(--gap-8xs);
+    min-width: 285px;
+  }
+  .input-field-container,
+  .job-pair,
+  .job-pair-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .job-pair {
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap-55xl);
+  }
+  .input-field-container,
+  .job-pair-wrapper {
+    align-self: stretch;
+  }
+  .job-pair-wrapper {
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-12xs);
+    box-sizing: border-box;
+  }
+  .input-field-container {
+    flex-direction: column;
+    gap: 43px;
+  }
+  .button-pair-child {
+    height: 38px;
+    width: 77px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-sandybrown);
+    display: none;
+  }
+  .batal {
+    position: relative;
+    font-size: var(--font-size-xl);
+    display: inline-block;
+    font-family: var(--font-inter);
+    color: var(--txt);
+    text-align: left;
+    min-width: 50px;
+    z-index: 2;
+  }
+  .button-pair {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-6xs) var(--padding-smi);
+    background-color: var(--color-sandybrown);
+    border-radius: var(--br-3xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+  }
+  .button-pair:hover {
+    background-color: #cc823d;
+  }
+  .button-pair-item {
+    height: 38px;
+    width: 77px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-skyblue);
+    display: none;
+  }
+  .kirim {
+    position: relative;
+    font-size: var(--font-size-xl);
+    display: inline-block;
+    font-family: var(--font-inter);
+    color: var(--txt);
+    text-align: left;
+    min-width: 52px;
+    z-index: 2;
+  }
+  .button-pair1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-6xs) var(--padding-xs) var(--padding-6xs)
+      var(--padding-smi);
+    background-color: var(--color-skyblue);
+    border-radius: var(--br-3xs);
+    justify-content: flex-start;
+    z-index: 1;
+  }
+  .button-pair1:hover {
+    background-color: var(--color-steelblue);
+  }
+  .button-container,
+  .button-container-wrapper,
+  .button-pair1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .button-container {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .button-container-wrapper {
+    width: 934px;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .input-field-container-parent {
+    margin: 0;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-16xl);
+    max-width: 100%;
+  }
+  .form-container-inner,
+  .rectangle-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .rectangle-parent {
+    flex: 1;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+    background-color: var(--txt);
+    border-top: 5px solid var(--color-skyblue);
+    flex-direction: column;
+    padding: var(--padding-24xl) 113px var(--padding-19xl) 118px;
+    gap: 51.6px;
+  }
+  .form-container-inner {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-12xs);
+  }
+  .frame-child2 {
+    width: 1182px;
+    height: 409px;
+    position: relative;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+    background-color: var(--txt);
+    border-top: 5px solid var(--color-skyblue);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .petunjuk-konsultasi {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .short-divider-icon1 {
+    height: 0.2px;
+    width: 20px;
+    position: relative;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .top-divider {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  }
+  .long-divider-icon {
+    height: 0.4px;
+    width: 50px;
+    position: relative;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .bottom-divider {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  }
+  .petunjuk-konsultasi-parent {
+    width: 315px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 9.9px;
+  }
+  .instructions-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0 0 var(--padding-12xs);
+  }
+  .lengkapi-form-pendaftaran-di-a1 {
+    margin-bottom: 0;
+  }
+  .lengkapi-form-pendaftaran-di-a {
+    margin: 0;
+    font-family: inherit;
+    padding-left: var(--padding-13xl);
+  }
+  .masukkan-nama-pekerjaan {
+    margin: 0;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+  }
+  .cek-kembali-data1 {
+    margin-bottom: 0;
+  }
+  .cek-kembali-data {
+    margin: 0;
+    font-family: inherit;
+    padding-left: var(--padding-13xl);
+  }
+  .cek-kembali-data2 {
+    margin: 0;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+  }
+  .submit-data1 {
+    margin-bottom: 0;
+  }
+  .submit-data {
+    margin: 0;
+    font-family: inherit;
+    padding-left: var(--padding-13xl);
+  }
+  .setelah-data-yang {
+    margin: 0;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+  }
+  .lengkapi-form-pendaftaran-container {
+    width: 1103px;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+    font-size: var(--font-size-5xl);
+    color: var(--color-skyblue);
+  }
+  .rectangle-parent2 {
+    align-self: stretch;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+    background-color: var(--txt);
+    border-top: 5px solid var(--color-skyblue);
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-19xl) var(--padding-13xl) var(--padding-3xl);
+    gap: 17.6px;
+  }
+  .form-container,
+  .form-container-wrapper,
+  .rectangle-parent2 {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .form-container {
+    width: 1183px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-44xl);
+  }
+  .form-container-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-5xl) 0 var(--padding-xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+    font-family: var(--body1-light);
+  }
+  .frame-child3 {
+    height: 491px;
+    width: 1369px;
+    position: relative;
+    background-color: var(--color-skyblue);
+    display: none;
+    max-width: 100%;
+  }
+  .img-20240506-233046-1-icon {
+    align-self: stretch;
+    width: 351px;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    min-height: 149px;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .contact {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 112px;
+  }
+  .call-icon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .email-address {
+    flex: 1;
+    position: relative;
+  }
+  .detail-pair {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+  }
+  .message-icon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .mentalkugmailcom {
+    position: relative;
+    white-space: nowrap;
+  }
+  .detail-pair1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-lgi);
+  }
+  .detail-pair-parent,
+  .frame-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .detail-pair-parent {
+    width: 303px;
+    gap: var(--gap-xl);
+  }
+  .frame-container {
+    width: 527px;
+    max-width: 114%;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: var(--body1-light-size);
+    font-family: var(--body1-light);
+  }
+  .contact-parent,
+  .img-20240506-233046-1-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .contact-parent {
+    width: 464px;
+    flex-direction: column;
+    gap: var(--gap-11xl);
+    min-width: 464px;
+    flex-shrink: 0;
+  }
+  .img-20240506-233046-1-parent {
+    width: 761px;
+    flex-direction: row;
+    gap: var(--gap-75xl);
+  }
+  .bottom-image-icon {
+    width: 1368.7px;
+    height: 4px;
+    position: relative;
+    object-fit: contain;
+    max-width: 129%;
+    flex-shrink: 0;
+  }
+  .footer-icon {
+    height: 30px;
+    width: 151px;
+    position: relative;
+  }
+  .footer-icon-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .copyright-2024-mentalkuid {
+    position: relative;
+  }
+  .contact-container,
+  .frame-parent1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .frame-parent1 {
+    gap: var(--gap-11xl);
+    font-size: var(--body1-light-size);
+    font-family: var(--body1-light);
+  }
+  .contact-container {
+    width: 1064px;
+    padding: 0;
+    box-sizing: border-box;
+    gap: var(--gap-41xl);
+    max-width: 100%;
+    z-index: 1;
+  }
+  .frame-footer,
+  .konsultasi-online {
+    display: flex;
+    align-items: flex-start;
+  }
+  .frame-footer {
+    align-self: stretch;
+    background-color: var(--color-skyblue);
+    flex-direction: row;
+    justify-content: center;
+    padding: var(--padding-49xl) var(--padding-xl) var(--padding-41xl)
+      var(--padding-26xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--h5-size);
+    color: var(--txt);
+    font-family: var(--h5);
+  }
+  .konsultasi-online {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-aliceblue-200);
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 76.5px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+    .rectangle-parent {
+      padding-left: 59px;
+      padding-right: var(--padding-37xl);
+      box-sizing: border-box;
+    }
+    .form-container {
+      gap: var(--gap-12xl);
+    }
+    .frame-footer {
+      padding-left: var(--padding-3xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .frame-parent {
+      flex-wrap: wrap;
+    }
+    .about-us {
+      font-size: var(--h2-size);
+    }
+    .navigation-options {
+      display: none;
+    }
+    .box-background {
+      width: 100%;
+      height: 5px;
+    }
+    .konsultasi-online2 {
+      font-size: var(--h2-size);
+    }
+    .consultation-box-inner {
+      min-width: 100%;
+    }
+    .konsultasi-online3 {
+      font-size: var(--font-size-7xl);
+    }
+    .icon-pair-parent,
+    .job-pair {
+      gap: var(--gap-18xl);
+    }
+    .petunjuk-konsultasi {
+      font-size: var(--font-size-7xl);
+    }
+    .contact-parent,
+    .img-20240506-233046-1-icon {
+      flex: 1;
+    }
+    .img-20240506-233046-1-parent {
+      flex-wrap: wrap;
+      gap: var(--gap-28xl);
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .navigation-menu {
+      gap: var(--gap-base);
+    }
+    .consultation-box {
+      gap: var(--gap-mid);
+    }
+    .hero {
+      gap: 41px;
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-38xl);
+      box-sizing: border-box;
+    }
+    .icon-pair-parent,
+    .job-pair {
+      gap: var(--gap-lg);
+    }
+    .input-field-container {
+      gap: 21px;
+    }
+    .input-field-container-parent {
+      gap: var(--gap-mid);
+    }
+    .rectangle-parent {
+      gap: var(--gap-7xl);
+      padding-left: var(--padding-10xl);
+      padding-right: var(--padding-9xl);
+      box-sizing: border-box;
+    }
+    .form-container {
+      gap: var(--gap-base);
+    }
+    .contact-parent {
+      min-width: 100%;
+    }
+    .contact-container {
+      gap: var(--gap-11xl);
+    }
+    .frame-footer {
+      padding-top: var(--padding-25xl);
+      padding-bottom: var(--padding-20xl);
+      box-sizing: border-box;
+    }
+    .konsultasi-online {
+      gap: 38px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .mindfulcare {
+      font-size: var(--h6-size);
+    }
+    .home-parent {
+      flex-wrap: wrap;
+    }
+    .about-us {
+      font-size: var(--font-size-22xl);
+    }
+    .button1 {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .konsultasi-online2 {
+      font-size: var(--font-size-22xl);
+    }
+    .saya-mengundangmu-untuk {
+      font-size: var(--font-size-xl);
+    }
+    .hero {
+      gap: var(--gap-xl);
+    }
+    .konsultasi-online3 {
+      font-size: var(--font-size-lgi);
+    }
+    .icon-pair,
+    .icon-pair1,
+    .job-icon-pair,
+    .job-icon-pair1 {
+      flex-wrap: wrap;
+    }
+    .batal,
+    .kirim {
+      font-size: var(--font-size-base);
+    }
+    .rectangle-parent {
+      padding-top: var(--padding-9xl);
+      padding-bottom: var(--padding-6xl);
+      box-sizing: border-box;
+    }
+    .petunjuk-konsultasi {
+      font-size: var(--font-size-lgi);
+    }
+    .lengkapi-form-pendaftaran-container {
+      font-size: var(--font-size-base);
+    }
+    .rectangle-parent2 {
+      padding-top: var(--padding-6xl);
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .contact {
+      font-size: var(--h6-size);
+    }
+    .img-20240506-233046-1-parent {
+      gap: var(--gap-4xl);
+    }
+    .konsultasi-online {
+      gap: var(--gap-lgi);
+    }
+  }
+  
